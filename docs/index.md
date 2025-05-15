@@ -1,17 +1,8 @@
-# Welcome to MkDocs
+# 百年孤独
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+多年以后，面对行刑队，奥雷里亚诺·布恩迪亚上校将会回想起他父亲带他去见识冰块的那个遥远的下午。
 
-## Commands
+这是马孔多镇的创始时期，一切都还笼罩在神秘与孤独之中。我们将在这里讲述布恩迪亚家族的百年传奇，从炼金术士梅尔基亚德斯的到来开始，到家族的兴衰沉浮为止。
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+---
 
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
