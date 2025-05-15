@@ -1,44 +1,48 @@
-site_name: Hungsong's Blog
-site_description: my booooooooooooooooooooooooook
-site_author: Hungsong
+# 站点基础信息
+site_name: Hungsong's Blog          # 网站名称，显示在浏览器标签和页面标题
+site_description: my booooooooooooooooooooooooook  # 网站描述
+site_author: Hungsong               # 作者名
+
+# 主题设置，使用 material 主题
 theme:
-  name: material
+  name: material                   # 主题名
   palette:
-    scheme: default
-    primary: lime
-    accent: light green
+    scheme: default               # 颜色方案，默认亮色
+    primary: lime                 # 主色调，亮绿色（lime）
+    accent: light green           # 强调色，浅绿色
   features:
-    - navigation.instant     # 页面无刷新跳转
-    - navigation.tabs        # 顶部导航标签
-    - navigation.top         # 返回顶部按钮
-    - search.highlight       # 搜索高亮
-    - search.suggest         # 搜索建议
-    - toc.integrate          # 集成目录（右侧）
-    - content.code.copy      # 代码复制按钮
-    - content.action.edit    # 编辑按钮
-    - content.tabs.link      # 标签页链接支持
-    - content.tooltips       # 悬浮提示
-    - navigation.indexes     # 自动索引首页
-    - header.autohide        # 自动隐藏头部（你提到的“自动消隐”）
+    - navigation.instant          # 页面无刷新跳转
+    - navigation.tabs             # 顶部导航标签
+    - navigation.top              # 返回顶部按钮
+    - search.highlight            # 搜索高亮
+    - search.suggest              # 搜索建议
+    - toc.integrate               # 集成目录（右侧）
+    - content.code.copy           # 代码复制按钮
+    - content.action.edit         # 编辑按钮（可跳转源码）
+    - content.tabs.link           # 标签页链接支持
+    - content.tooltips            # 悬浮提示
+    - navigation.indexes          # 自动索引首页
+    - header.autohide             # 自动隐藏头部（自动消隐）
+
+# Markdown扩展，丰富功能
 markdown_extensions:
   - toc:
-      permalink: true
-  - admonition
-  - footnotes
-  - def_list
-  - pymdownx.highlight
-  - pymdownx.inlinehilite
-  - pymdownx.superfences
-  - pymdownx.details        # 折叠列表（下拉列表）
-  - pymdownx.tabbed
-  - pymdownx.keys
-  - pymdownx.emoji
+      permalink: true             # 目录锚点链接
+  - admonition                    # 警告框、提示框
+  - footnotes                    # 脚注支持
+  - def_list                     # 定义列表
+  - pymdownx.highlight           # 代码高亮
+  - pymdownx.inlinehilite        # 行内高亮
+  - pymdownx.superfences         # 支持更多代码块格式
+  - pymdownx.details             # 折叠列表（下拉列表）
+  - pymdownx.tabbed              # 标签页
+  - pymdownx.keys                # 快捷键提示
+  - pymdownx.emoji               # Emoji 表情
   - pymdownx.tasklist:
-      custom_checkbox: true
+      custom_checkbox: true      # 任务列表支持自定义复选框
 
+# 导航栏，控制左上角菜单及页面结构
 nav:
-  - 首页: index.md
-  - 博客: 
-      - 关于本站: about.md
-      - Markdown 教程: markdown.md
-  - 联系我: contact.md
+  - 首页: index.md               # 首页链接到 docs/index.md
+  - 博客: blog.md               # 博客页面（需要你自己新建 docs/blog.md）
+  - 联系我: contact.md          # 联系我页面（需要你自己新建 docs/contact.md）
