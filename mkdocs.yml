@@ -1,0 +1,44 @@
+site_name: Hungsong's Blog
+site_description: my booooooooooooooooooooooooook
+site_author: Hungsong
+theme:
+  name: material
+  palette:
+    scheme: default
+    primary: lime
+    accent: light green
+  features:
+    - navigation.instant     # 页面无刷新跳转
+    - navigation.tabs        # 顶部导航标签
+    - navigation.top         # 返回顶部按钮
+    - search.highlight       # 搜索高亮
+    - search.suggest         # 搜索建议
+    - toc.integrate          # 集成目录（右侧）
+    - content.code.copy      # 代码复制按钮
+    - content.action.edit    # 编辑按钮
+    - content.tabs.link      # 标签页链接支持
+    - content.tooltips       # 悬浮提示
+    - navigation.indexes     # 自动索引首页
+    - header.autohide        # 自动隐藏头部（你提到的“自动消隐”）
+markdown_extensions:
+  - toc:
+      permalink: true
+  - admonition
+  - footnotes
+  - def_list
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - pymdownx.details        # 折叠列表（下拉列表）
+  - pymdownx.tabbed
+  - pymdownx.keys
+  - pymdownx.emoji
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+nav:
+  - 首页: index.md
+  - 博客: 
+      - 关于本站: about.md
+      - Markdown 教程: markdown.md
+  - 联系我: contact.md
