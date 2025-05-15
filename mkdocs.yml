@@ -1,7 +1,7 @@
 # 站点基础信息
-site_name: Hungsong's Blog          # 网站名称，显示在浏览器标签和页面标题
-site_description: my booooooooooooooooooooooooook  # 网站描述
-site_author: Hungsong               # 作者名
+site_name: HungSong's Blog          # 网站名称，显示在浏览器标签和页面标题
+site_description: 倪好，握握手  # 网站描述
+site_author: HungSong               # 作者名
 
 # 主题设置，使用 material 主题
 theme:
